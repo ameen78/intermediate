@@ -1,0 +1,619 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: rgb(51, 49, 49);
+    font-family:  'Bai Jamjuree' ,sans-serif;
+}
+body h1{
+     font-size: 1.5rem;
+    max-width: 75%;
+}
+body p{
+    max-width: 85%;
+    font-size: 17px;
+    color: rgb(173, 162, 162);
+}
+.back{
+    background: url(/images/bg-header-mobile.png) no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.logo img{
+    height: 20vh;
+}
+.blank{
+    display: none;
+}
+header{
+    height: 115vh;
+}
+.track{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+}
+.tra-mac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+.mac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+   
+}
+.aa{
+  height: 7vh;
+  width: 70vw;
+  font-size: 1rem;
+  color: rgb(245, 233, 233);
+  background-color: rgb(14, 231, 231);
+  border: none;
+  border-radius: 1.5rem;
+}
+.bb{
+    height: 7vh;
+  width: 70vw;
+  font-size: 1rem;
+  color: rgb(245, 233, 233);
+  background-color: rgb(58, 168, 204);
+  border: none;
+  border-radius: 1.5rem;
+}
+.track p{
+    max-width: 85%;
+    align-self: center;
+}
+.track h1{
+    align-self: center;
+}
+.item{
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item h1{
+    align-self: center;
+}
+.item p {
+    align-self: center;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+   
+}
+.computer{
+    background: url(/images/image-computer.png) no-repeat ;
+    background-size: contain;
+    height: 35vh;
+    background-position: center;
+} 
+.search {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cloud{
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.history{
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mob-tab{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.access{
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.combo{
+    background: url(/images/image-devices.png) no-repeat;
+    background-size: contain;
+    height: 30vh;
+    background-position: center;
+}
+.super{
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tool{
+    height: 23vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.creat{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.black{
+    background: url(/images/icon-blacklist.svg) no-repeat;
+    background-size: contain;
+    height: 6vh;
+    background-position: center;
+}
+.creat h1{
+    align-self: center;
+    padding-top: 20px;
+}
+.creat p{
+    align-self: center;
+}
+.plain {
+    background: url(/images/icon-text.svg) no-repeat ;
+    background-size: contain;
+    height: 6vh;
+    background-position: center;
+}
+.sneak{
+    background: url(/images/icon-preview.svg) no-repeat;
+    background-size: contain;
+    height: 6vh;
+    background-position: center;
+}
+.brands{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.google{
+    background: url(/images/logo-google.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+}
+.ibm{
+    background: url(/images/logo-ibm.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+}
+.micro{
+    background: url(/images/logo-microsoft.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+}
+.hewelet{
+    background: url(/images/logo-hp.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 8vh;
+}
+.graph{
+    background: url(/images/logo-vector-graphics.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+}
+.ios{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 32vh;
+}
+footer{
+    background-color: rgb(224, 211, 211);
+}
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.s-logo{
+    background: url(/images/logo.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 10vh;
+}
+.content p{
+    align-self: center;
+    max-width: 30%;
+    line-height: 50px;
+    color: #5e5a5a;
+}
+.social{
+    display: flex;
+    justify-content:space-evenly;
+    height: 20vh;
+    max-width: 50%;
+    position: relative;
+    left: 80px;
+}
+@media only screen and (min-width:700px){
+    body p{
+        font-size: 20px;
+        max-width: 50%;
+    }
+    .logo img{
+       height: 20vh;
+    }
+    header{
+        height: 110vh;
+    }
+    .track p{
+        max-width: 50%;
+        /* font-size: 20px; */
+    }
+    .tra-mac{
+        height: 65vh;
+    }
+    .aa{
+        width: 50vw;
+        font-size: 19px;
+    }
+    .bb{
+        width: 50vw;
+        font-size: 19px;
+    }
+    .team{
+       height: 55vh;       
+    }
+    .item{
+        height: 50vh;
+    }
+    .item p{
+        max-width: 50%;
+        /* font-size: 20px; */
+    }
+    .main{
+        height: 140vh;
+    }
+    .computer{
+        height: 45vh;
+    }
+    .search{
+        height: 35vh;
+    }
+    .cloud{
+        height: 35vh;
+    }
+    .history{
+        height: 35vh;
+    }
+    .mob-tab{
+      height: 100vh;
+    }
+    .combo{
+        height: 45vh;
+    }
+    .list{
+        height: 180vh;
+    }
+    .black{
+        height: 35vh;
+    }
+    .plain{
+        height: 35vh;
+    }
+    .sneak{
+        height: 35vh;
+    }
+    .creat{
+        height: 35vh;
+    }
+    .brands{
+        height: 150vh;
+    }
+    .google{
+        height: 10vh;
+    }
+    .ibm{
+        height: 10vh;
+    }
+    .micro{
+        height: 10vh;
+    }
+    .hewelet{
+        height: 12vh;
+    }
+    .graph{
+        height: 10vh;
+    }
+    content p{
+       max-width: 55%;
+    }
+    content {
+     height: 80vh;
+    }
+    .s-logo{
+        height: 17vh;
+    }
+    .social{
+        max-width: 30%;
+        position: relative;
+        left: 260px;
+    }
+}
+@media only screen and (min-width:1024px){
+    body p{
+        font-size: 27px;
+        max-width: 50%;
+    }
+    body h1{
+        font-size: 1.9rem;
+    }
+    .logo img{
+        height: 26vh;
+     }
+     .back{
+         display: none;
+     }
+     .blank{
+         display: block;
+         background: url(/images/bg-header-desktop.png) no-repeat;
+         background-size: cover;
+         height: 70vh;
+     }
+     header{
+        height: 130vh;
+    }
+    .mac{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .aa{
+        width: 25vw;
+        font-size: 22px;
+        position: relative;
+        right: 5px;
+    }
+    .bb{
+        width: 25vw;
+        font-size: 22px;
+        position: relative;
+        left: 5px;
+    }
+    .team{
+        height: 70vh;       
+     }
+     .item{
+        height: 40vh;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
+    }
+    .computer{
+        width: 90vw;
+        height: 100vh;
+        background-size: 79vh 100vh;
+    }
+    .mail{
+        width: 70%;
+        height: 90vh;
+    }
+    .search{
+        height: 27vh;
+    }
+    .cloud{
+        height: 27vh;
+    }
+    .history{
+        height: 27vh;
+    }
+    .search h1{
+        font-size: 1.5rem;
+    }
+    .search p{
+        font-size: 23px;
+        
+    }
+    .cloud h1{
+        font-size: 1.5rem;
+    }
+    .cloud p{
+        font-size: 23px;
+    }
+    .history h1{
+        font-size: 1.5rem;
+    }
+    .history p{
+        font-size: 23px;
+    }
+    .combo{
+        height: 53vh;
+    }
+    .list{
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .black{
+        height: 20vh;
+      width: 35vw;
+      
+    }
+    .plain{
+        height: 20vh;
+        width: 30vw;
+    }
+    .sneak{
+        height: 20vh;
+        width: 30vw;
+    }
+    .creat{
+        height: 30vh;
+    }
+    .creat h1{
+        font-size: 1.5rem;
+        padding: 20px 0 7px 0;
+    }
+    .creat p{
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+    .brands{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 40vh;
+       
+    }
+    .google{
+        width: 10vw;
+        max-width: 90%;
+    }
+    .graph{
+        width: 10vw;
+        max-width: 95%;
+    }
+    .hewelet{
+        width: 20vw;
+        max-width: 90%;
+    }
+    .ibm{
+        width: 20vw;
+        max-width: 90%;
+    }
+    .micro{
+        width: 20vw;
+        max-width: 90%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .content{
+        width: 40vw;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    .content p{
+      max-width: 100%;
+    }
+    .s-logo{
+        width: 20vw;
+        max-width: 50%;
+    }
+    .social{
+        width: 10vw;
+        position: relative;
+        left: 0;
+        display: flex;
+        align-items: center;
+        top: 190px;
+        padding: 0 30px 0 0;
+    }
+    .us{
+       /* max-width: 20vw; */
+       position: relative;
+       top: 98px;
+    }
+    .press{
+        position: relative;
+        left: 190px;
+    }
+    .in{
+        position: relative;
+        left: 390px;
+        bottom: 80px;
+    }
+    .fb img{
+       height: 5vh;
+    }
+    .twe img{
+        height: 5vh;
+    }
+    .insta img{
+        height: 5vh;
+    }
+}
+@media only screen and (min-width:1440px){
+    body p{
+        font-size: 32px;
+        max-width: 50%;
+    }
+    body h1{
+        font-size: 2.3rem;
+    }
+    .aa{
+        font-size: 1.9rem;
+    }
+    .bb{
+        font-size: 1.9rem;
+    }
+    .computer{
+        background-size: 85vh 100vh;
+    }
+  .social{
+     position: relative;
+     top: 200px;
+     right: 90px;
+  }
+  .press{
+      position: relative;
+      left: 290px;
+  }
+  .in{
+      position: relative;
+      left: 590px;
+  }
+}
