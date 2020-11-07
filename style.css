@@ -679,7 +679,7 @@ footer{
         font-size: 2.3rem;
     }
     .track{
-        height: 40vh;
+        height: 30vh;
     }
     .track h1 {
         font-size: 2.7rem;
@@ -691,7 +691,7 @@ footer{
         height: 70vh;
     }
     .item{
-        height: 50vh;
+        height: 40vh;
     }
     .aa{
         font-size: 1.9rem;
@@ -719,13 +719,13 @@ footer{
         background-size: 95vh 100vh;
     }
     .access{
-        height: 50vh;
+        height: 40vh;
     }
     .combo{
         height: 60vh;
     }
     .store{
-        height: 50vh;
+        height: 40vh;
     }
     ul{
         font-size: 30px;
