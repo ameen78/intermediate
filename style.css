@@ -400,11 +400,11 @@ footer{
 }
 @media only screen and (min-width:1024px){
     body p{
-        font-size: 27px;
+        font-size: 20px;
         max-width: 50%;
     }
     body h1{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
     .logo img{
         height: 26vh;
@@ -420,6 +420,9 @@ footer{
      }
      header{
         height: 130vh;
+    }
+    .track h1 {
+        font-size:2rem
     }
     .mac{
         display: flex;
@@ -458,9 +461,12 @@ footer{
         height: 100vh;
         background-size: 79vh 100vh;
     }
+    .mob-tab{
+        height: 130vh;
+    }
     .mail{
         width: 70%;
-        height: 90vh;
+        height: 160vh;
     }
     .search{
         height: 27vh;
@@ -471,91 +477,133 @@ footer{
     .history{
         height: 27vh;
     }
+    .search{
+        flex: 1;
+    }
     .search h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        align-self: start;
     }
     .search p{
-        font-size: 23px;
-        
+        font-size: 19px;
+        max-width: 90%; 
+        align-self: start;
+        text-align: left; 
+    }
+    .cloud{
+        flex: 1;
     }
     .cloud h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        align-self: start;
     }
     .cloud p{
-        font-size: 23px;
+        font-size: 19px;
+        max-width: 70%;
+        text-align: left;
+        align-self: start; 
+    }
+    .history{
+        flex: 1;
     }
     .history h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        align-self: start;
     }
     .history p{
-        font-size: 23px;
+        font-size: 19px;
+        max-width: 90%;
+        align-self: start; 
+        text-align: left;
     }
     .combo{
-        height: 53vh;
+        height: 56vh;
     }
     .list{
         height: 80vh;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
     .black{
         height: 20vh;
-      width: 35vw;
+        width: 30vw;
+      background-size: 50px;
+      position: relative;
+        left: 40px;
       
     }
     .plain{
         height: 20vh;
         width: 30vw;
+        /* background-size: contain; */
+        background-size: 60px;
+        
     }
     .sneak{
         height: 20vh;
         width: 30vw;
+        /* background-size: contain; */
+        background-size: 60px;
     }
     .creat{
         height: 30vh;
+        /* flex: 1; */
     }
     .creat h1{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         padding: 20px 0 7px 0;
     }
     .creat p{
-        font-size: 1.2rem;
-        max-width: 80%;
+        font-size: 1.1rem;
+        max-width: 70%;
     }
     .brands{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        height: 40vh;
+        justify-content: center;
+        height: 30vh;
        
     }
     .google{
         width: 10vw;
         max-width: 90%;
+        background-size: 100px;
     }
     .graph{
         width: 10vw;
         max-width: 95%;
+        background-size: 100px;
     }
     .hewelet{
         width: 20vw;
         max-width: 90%;
+        background-size: 110px;
     }
     .ibm{
         width: 20vw;
         max-width: 90%;
+        background-size: 110px;
     }
     .micro{
         width: 20vw;
         max-width: 90%;
+        background-size: 150px;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 40vh;
     }
     footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         width: 100%;
+        height: 40vh;
     }
     .content{
         /* width: 40vw; */
@@ -624,30 +672,96 @@ footer{
 }
 @media only screen and (min-width:1440px){
     body p{
-        font-size: 32px;
+        font-size: 25px;
         max-width: 50%;
     }
     body h1{
         font-size: 2.3rem;
     }
+    .track{
+        height: 40vh;
+    }
+    .track h1 {
+        font-size: 2.7rem;
+    }
+    .tra-mac{
+        height: 60vh;
+    }
     .team{
-        height: 80vh;
+        height: 130vh;
+    }
+    .item{
+        height: 70vh;
     }
     .aa{
         font-size: 1.9rem;
-        height: 9vh;
+        height: 11vh;
         border-radius: 2.5rem;
     }
     .bb{
         font-size: 1.9rem;
-        height: 9vh;
+        height: 11vh;
         border-radius: 2.5rem;
     }
+    .mail{
+        width: 90%;
+    }
+    .search p {
+        max-width: 67%;
+    }
+    .cloud p{
+        max-width: 50%;
+    }
+    .history p {
+        max-width: 67%;
+    }
     .computer{
-        background-size: 85vh 100vh;
+        background-size: 95vh 100vh;
+    }
+    .access{
+        height: 50vh;
+    }
+    .combo{
+        height: 60vh;
+    }
+    .store{
+        height: 50vh;
     }
     ul{
         font-size: 30px;
+    }
+    .google{
+        background-size: 130px;
+    }
+    .hewelet{
+        background-size: 130px;
+    }
+    .micro{
+        background-size: 180px;
+    }
+    .graph{
+        background-size: 120px;
+    }
+    .ibm{
+        background-size: 110px;
+    }
+    .creat{
+        flex: 1;
+    }
+    .creat h1 {
+        font-size: 1.7rem;
+    }
+    .creat p {
+        font-size: 1.2rem
+    }
+    .black{
+        background-size: 40px;
+    }
+    .sneak{
+        background-size: 70px;
+    }
+    .plain{
+        background-size: 70px;
     }
   /* .social{
      position: relative;
