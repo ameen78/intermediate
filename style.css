@@ -250,13 +250,16 @@ header{
 }
 footer{
     background-color:rgb(245, 239, 239);
+    
 }
 .content{
     /* height: 90vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 30px 0 0 0;
 }
+
 .s-logo{
     background: url(/images/logo.svg) no-repeat;
     background-position: center;
@@ -384,13 +387,13 @@ footer{
        max-width: 55%;
     } */
     content {
-     height: 80vh;
+     /* height  : 50vh; */
     }
     ul{
         font-size: 17px;
     }
     .s-logo{
-        height: 17vh;
+        height: 14vh;
     }
     .social{
         max-width: 30%;
@@ -431,12 +434,14 @@ footer{
     }
     .aa{
         width: 25vw;
+        height: 9vh;
         font-size: 22px;
         position: relative;
         right: 5px;
     }
     .bb{
         width: 25vw;
+        height: 9vh;
         font-size: 22px;
         position: relative;
         left: 5px;
@@ -527,29 +532,30 @@ footer{
         align-items: center;
     }
     .black{
-        height: 20vh;
+        height: 40vh;
         width: 30vw;
-      background-size: 50px;
+      background-size: 90px;
+      /* background-size: contain; */
       position: relative;
         left: 40px;
       
     }
     .plain{
-        height: 20vh;
+        height: 40vh;
         width: 30vw;
         /* background-size: contain; */
         background-size: 60px;
         
     }
     .sneak{
-        height: 20vh;
+        height: 40vh;
         width: 30vw;
         /* background-size: contain; */
         background-size: 60px;
     }
     .creat{
         height: 30vh;
-        /* flex: 1; */
+        flex: 1;
     }
     .creat h1{
         font-size: 1.6rem;
@@ -613,6 +619,7 @@ footer{
         flex-direction: row;
         align-items: center;
        max-width: 100vw;
+       padding: 0;
     }
     /* .content p{
       max-width: 100%;
