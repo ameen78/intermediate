@@ -257,7 +257,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 30px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .s-logo{
@@ -273,7 +273,7 @@ footer{
     color: #5e5a5a;
 } */
  ul{
-     height: 43vh;
+     /* height: 43vh; */
      line-height: 40px;
  }
 .social{
@@ -292,6 +292,9 @@ footer{
 }
 .insta{
     padding-left:5px ;
+}
+.order{
+    padding: 20px 0 20px 0;
 }
 @media only screen and (min-width:700px){
     body p{
@@ -609,7 +612,7 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 40vh;
+        height: 20vh;
     }
     .content{
         /* width: 40vw; */
@@ -619,7 +622,7 @@ footer{
         flex-direction: row;
         align-items: center;
        max-width: 100vw;
-       padding: 0;
+       padding: 0 0 0 10px;
     }
     /* .content p{
       max-width: 100%;
@@ -640,7 +643,7 @@ footer{
         width: 20vw;
     }
     .s-logo{
-        width: 20vw;
+        width: 10vw;
         max-width: 50%;
     }
     .social{
@@ -676,6 +679,18 @@ footer{
     .insta img{
         height: 5vh;
     }
+    .fa{
+        padding: 0  0 0 50px;
+    }
+    .kit{
+        padding: 0  0 0 50px;
+    }
+    .ins{
+        position: relative;
+        bottom: 20px;
+        left: 50px;
+    }
+    
 }
 @media only screen and (min-width:1440px){
     body p{
@@ -703,12 +718,12 @@ footer{
     .aa{
         font-size: 1.9rem;
         height: 11vh;
-        border-radius: 2.5rem;
+        border-radius: 3rem;
     }
     .bb{
         font-size: 1.9rem;
         height: 11vh;
-        border-radius: 2.5rem;
+        border-radius: 3rem;
     }
     .mail{
         width: 90%;
