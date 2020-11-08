@@ -537,15 +537,18 @@ footer{
         height: 56vh;
     }
     .list{
+        /* width: 70vw; */
         height: 80vh;
+        /* max-width: 70%; */
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding: 0 50px ;
     }
     .black{
         height: 40vh;
-        width: 30vw;
+        /* width: 30vw; */
       background-size: 90px;
       /* background-size: contain; */
       position: relative;
@@ -554,14 +557,14 @@ footer{
     }
     .plain{
         height: 40vh;
-        width: 30vw;
+        /* width: 30vw; */
         /* background-size: contain; */
         background-size: 60px;
         
     }
     .sneak{
         height: 40vh;
-        width: 30vw;
+        /* width: 30vw; */
         /* background-size: contain; */
         background-size: 60px;
     }
@@ -574,8 +577,9 @@ footer{
         padding: 20px 0 7px 0;
     }
     .creat p{
-        font-size: 1.1rem;
-        max-width: 70%;
+        font-size: 0.8rem;
+        max-width: 90%;
+        /* width: 80%; */
     }
     .brands{
         display: flex;
@@ -779,6 +783,9 @@ footer{
     .ibm{
         background-size: 110px;
     }
+    .list{
+        padding: 0 85px;
+    }
     .creat{
         flex: 1;
     }
@@ -786,7 +793,7 @@ footer{
         font-size: 1.7rem;
     }
     .creat p {
-        font-size: 1.2rem
+        font-size: 1rem
     }
     .black{
         background-size: 40px;
