@@ -42,14 +42,17 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 30vh;
+    height: 31.6vh;
     width: 100%;
+}
+.track h1 span {
+    display: block;
 }
 .tra-mac{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 50.8vh;
 }
 .mac{
     display: flex;
@@ -62,11 +65,12 @@ header{
 .aa{
   height: 7vh;
   width: 70vw;
-  font-size: 1rem;
+  font-size: 1rem; 
   color: rgb(245, 233, 233);
   background-color: rgb(14, 231, 231);
   border: none;
   border-radius: 1.5rem;
+  box-shadow: 2px 1px 4px -2px  rgb(14, 231, 231);
 }
 .bb{
     height: 7vh;
@@ -76,6 +80,7 @@ header{
   background-color: rgb(58, 168, 204);
   border: none;
   border-radius: 1.5rem;
+  box-shadow: 2px 1px 4px -2px rgb(58, 168, 204);
 }
 .track p{
     max-width: 85%;
@@ -307,6 +312,9 @@ footer{
     header{
         height: 110vh;
     }
+    .track h1 span {
+        display: inline;
+    }
     .track p{
         max-width: 50%;
         /* font-size: 20px; */
@@ -467,7 +475,8 @@ footer{
     .computer{
         width: 90vw;
         height: 100vh;
-        background-size: 79vh 100vh;
+        background-size: 99vh 100vh;
+        margin-left: -50px;
     }
     .mob-tab{
         height: 130vh;
@@ -724,6 +733,9 @@ footer{
         font-size: 1.9rem;
         height: 11vh;
         border-radius: 3rem;
+    }
+    .computer{
+        margin-left: -160px;
     }
     .mail{
         width: 90%;
